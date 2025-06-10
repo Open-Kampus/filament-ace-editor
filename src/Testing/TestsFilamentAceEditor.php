@@ -1,6 +1,6 @@
 <?php
 
-namespace Riodwanto\FilamentAceEditor\Testing;
+namespace OpenKampus\FilamentAceEditor\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

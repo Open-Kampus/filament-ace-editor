@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Riodwanto\FilamentAceEditor;
+namespace OpenKampus\FilamentAceEditor;
 
 use Closure;
 use Filament\Forms\Components\Concerns\HasPlaceholder;

@@ -1,5 +1,5 @@
 <?php
 
-use Riodwanto\FilamentAceEditor\Tests\TestCase;
+use OpenKampus\FilamentAceEditor\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

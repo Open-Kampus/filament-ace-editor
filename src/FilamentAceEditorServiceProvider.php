@@ -1,6 +1,6 @@
 <?php
 
-namespace Riodwanto\FilamentAceEditor;
+namespace OpenKampus\FilamentAceEditor;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
@@ -11,7 +11,7 @@ use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Riodwanto\FilamentAceEditor\Testing\TestsFilamentAceEditor;
+use OpenKampus\FilamentAceEditor\Testing\TestsFilamentAceEditor;
 
 class FilamentAceEditorServiceProvider extends PackageServiceProvider
 {
@@ -67,7 +67,7 @@ class FilamentAceEditorServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'riodwanto/filament-ace-editor';
+        return 'open-kampus/filament-ace-editor';
     }
 
     /**
