@@ -1,22 +1,22 @@
 # Filament Ace Editor
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/riodwanto/filament-ace-editor.svg?style=flat-square)](https://packagist.org/packages/riodwanto/filament-ace-editor)
-[![Total Downloads](https://img.shields.io/packagist/dt/riodwanto/filament-ace-editor.svg?style=flat-square)](https://packagist.org/packages/riodwanto/filament-ace-editor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/open-kampus/filament-ace-editor.svg?style=flat-square)](https://packagist.org/packages/open-kampus/filament-ace-editor)
+[![Total Downloads](https://img.shields.io/packagist/dt/open-kampus/filament-ace-editor.svg?style=flat-square)](https://packagist.org/packages/open-kampus/filament-ace-editor)
 
 
-Ace Editor implementation for Filament Form.
+Fork of Ace Editor implementation for Filament Form by [Rio Dewanto P](https://github.com/riodwanto/filament-ace-editor).
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require riodwanto/filament-ace-editor
+composer require open-kampus/filament-ace-editor
 ```
 ## Usage
 
 ```php
-use Riodwanto\FilamentAceEditor\AceEditor;
+use OpenKampus\FilamentAceEditor\AceEditor;
 
 public function form(Form $form): Form
 {
@@ -100,21 +100,6 @@ return [
     ...
 ];
 ```
-
-###### Supported [Ace Features](https://ace.c9.io/#features)
-| **Feature**                     |      |
-| :------------------------------ | :--- |
-| Themes                          | ✅    |
-| Automatic indent and outdent    | ✅    |
-| Handles huge documents          | ✅    |
-| Search and replace              | ✅    |
-| Line wrapping                   | ✅    |
-| An optional command line        | ❌    |
-| Multiple cursors and selections | ✅    |
-| Key bindings                    | ❌    |
-
-<a href="https://buymeacoffee.com/riodewanto" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 ## Credits
 
 - [Rio Dewanto P](https://github.com/riodwanto)
